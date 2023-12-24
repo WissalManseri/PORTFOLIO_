@@ -1,0 +1,1251 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WISSAL MN - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="static/assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="/static/assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box"  style="border-radius:72px;">
+          <!--static/assets/images/wis.png!-->
+          <img src="static/assets/images/WISS.jpeg" style="border-radius:72px;" alt="WISS MN"  >
+        </figure>
+
+        <div class="info-content">
+
+          <h1 class="name" title="WISSAL MANSERI">WISSAL <br> MANSERI</h1>
+          <p class="title"> Software developer  </p>
+
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+      <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/wissal-mn/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/WissalManseri" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/wissal_mn2410" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://linktr.ee/wissal.mn" class="social-link">
+              <ion-icon name="link"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <!--<ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>__-->
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:wissalmanseri13@example.com" class="contact-link">wissalmanseri13@gmail.com</a>
+            </div>
+
+          </li>
+
+          <!--<li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+           <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+            </div>
+
+          </li>--!-->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+           <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2001-10-24">October 24, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Mostaganem, Algeria</address>
+            </div>
+
+          </li>
+
+        </ul>
+                 <div class="download-button" style="border-radius:20px; font-weight: bold; background: rgb(206 177 90);
+                  padding:10px; color:#080831; margin-top:41px; margin-bottom:21px; margin-left:14px;margin-right:50px;">
+                        <a href="" download="cv wissal.pdf">
+                            <button class="download-btn">Download CV<i class="fas fa-download"></i> </button>
+                        </a>
+                    </div>
+
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+ <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text" >
+          <p style="text-align:justify;">
+            I am a computer science student, with the enthusiasm for work and the motivation necessary for success,
+            I am passionate about web development. I master some programming languages as well as SE linux.
+            I am a self-taught machine learning practitioner, deep learning with a passion for AI and technology. 👩‍💻
+          </p>
+
+          <p style="text-align:justify;">
+            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I
+            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+            across your
+            message and identity in the most creative way. I created web design for many famous brand companies.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="static/assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text" style="text-align:justify;">
+                  Pushing the boundaries of modern design, I craft high-quality and innovative creations at a professional level
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="static/assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text" style="text-align:justify;">
+                  Professional-level development of websites with a focus on high-quality and proficiency across various programming languages.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="static/assets/images/Ai--.png" alt="ai" width="45" height="45">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Artificial Intelligence  </h4>
+
+                <p class="service-item-text" style="text-align:justify;">
+                  Specializ in AI for advanced solutions, pioneering innovation in intelligent systems and data-driven insights
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="static/assets/images/datascience-.png" alt="camera icon" width="48" height="41">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science Programming</h4>
+
+                <p class="service-item-text" style="text-align:justify;">
+                  developing advanced predictive models, and generating actionable insights to solve complex problems and make informed decisions.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="static/assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="static/assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+     <article class="resume" data-page="resume">
+
+        <header>
+            <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+            <!-- Education Timeline -->
+            <div class="title-wrapper">
+                <div class="icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                </div>
+                <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+                
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Master 2 Computer Science path Information Systems Engineering</h4>
+                        <span>2023 — Present</span>
+                        <p class="timeline-text">Faculty of Natural Sciences and Computer Science of Mostaganem</p>
+                    </li>
+                
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Master 1 Computer science path information systems engineering</h4>
+                        <span>2022 — 2023</span>
+                        <p class="timeline-text">Faculty of Natural Sciences and Computer Science of Mostaganem</p>
+                    </li>
+                
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Bachelor’s Degree in Computer Science</h4>
+                        <span>2019 — 2020</span>
+                        <p class="timeline-text">Faculty of Natural Sciences and Computer Science of Mostaganem</p>
+                    </li>
+                
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Bac scientifique mention Bien</h4>
+                        <span>2018 — 2019</span>
+                        <p class="timeline-text">Mohamed Khemisti High School</p>
+                    </li>
+                
+            </ol>
+
+        </section>
+
+        <section class="timeline">
+
+            <!-- Experience Timeline -->
+            <div class="title-wrapper">
+                <div class="icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                </div>
+                <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+                
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">academic internship</h4>
+                        
+                            <span>
+                                february 2023 -
+                                May 2023
+                            </span>
+                        
+                        <p class="timeline-text">UMAB-Université de Mostaganem · Contrat en alternance</p>
+                    </li>
+                
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">student intern</h4>
+                        
+                            <span>
+                                March 2023 -
+                                April 2023
+                            </span>
+                        
+                        <p class="timeline-text">Sonatrache (CP1Z)</p>
+                    </li>
+                
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Freelance</h4>
+                        
+                            <span>August 2022 - Present</span>
+                        
+                        <p class="timeline-text">Thriving in the dynamic world of freelancing since 2022, I&#x27;ve been delivering top-notch services, embracing versatility, and providing tailored solutions to clients across diverse industries. Committed to excellence and innovation, I continue to navigate the freelance landscape, turning ideas into impactful results.</p>
+                    </li>
+                
+            </ol>
+
+        </section>
+
+         <!--
+          - Writing Tools
+        -->
+        <section class="writing-tools">
+
+            <h3 class="h3 testimonials-title" style="margin-top: 48px; margin-bottom:2px;">Writing Tools</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+
+                   <li class="testimonials-item" style="min-width:calc(25% - 15px);">
+                            <!-- Image related to Markdown -->
+                            <img src="static/assets/images/markdown-logo.png" style="border-radius: 29px; width: 85px;" alt="Markdown" data-testimonials-avatar>
+                    </li>
+
+                    <li class="testimonials-item" style="min-width:calc(25% - 15px);">
+                        <!-- Image related to Jupyter Notebooks -->
+                        <img src="static/assets/images/jupyter-logo.png" style="border-radius: 29px; width: 90px; height:89px;" alt alt="Jupyter Notebooks" data-testimonials-avatar>
+
+                    </li>
+
+                    <li  style="min-width:calc(25% - 15px);">
+                           <!-- Image related to LaTeX Packages -->
+                            <img src="static/assets/images/Llatex-logo.png" style="border-radius: 29px; width: 85px;" alt="LaTeX Packages" data-testimonials-avatar>
+                    </li>
+
+                    <li class="testimonials-item" style="min-width:calc(25% - 15px);">
+                           <!-- Image related to Google Docs -->
+                           <img src="static/assets/images/google-docs-logo.png" style="border-radius: 29px; width: 90px; height:89px;" alt="Google Docs" data-testimonials-avatar>
+                    </li>
+
+            </ul>
+        </section>
+        <!--
+          - Expertise
+        -->
+       <section class="testimonials">
+
+        <h3 class="h3 testimonials-title" style="margin-top:48px;">competencies</h3>
+
+        <ul class="testimonials-list has-scrollbar">
+
+          <li class="testimonials-item">
+            <div class="content-card" data-testimonials-item>
+
+              <figure class="testimonials-avatar-box" >
+                <!-- Image related to Windows -->
+                  <img src="static/assets/images/windows.png" style="width:204px; height:124px; margin-left:-65px; margin-right:-66px; margin-top:-16px; margin-bottom:-32px;" alt="Windows Logo"  data-testimonials-avatar>
+              </figure>
+
+              <h4 class="h4 testimonials-item-title" data-testimonials-title>Windows Expert</h4>
+
+              <div class="testimonials-text" style="height:108px;" data-testimonials-text>
+                <p>
+                  As a skilled professional in Windows operating systems, I have a deep understanding of system architecture,
+                  security protocols, and efficient troubleshooting.
+                </p>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="testimonials-item">
+            <div class="content-card" data-testimonials-item>
+
+              <figure class="testimonials-avatar-box">
+                <!-- Image related to Linux -->
+                <img src="static/assets/images/linuxx.png" alt="Linux Logo" style="border-radius:25px; width:74px; height:80px; padding:10px;" data-testimonials-avatar>
+              </figure>
+
+              <h4 class="h4 testimonials-item-title" data-testimonials-title>Linux Enthusiast</h4>
+
+              <div class="testimonials-text" style="height:108px;" data-testimonials-text>
+                <p>
+                  With a strong command over Linux distributions, I excel in configuring servers, scripting automation, and
+                  implementing open-source solutions.
+                </p>
+              </div>
+
+            </div>
+          </li>
+          <li class="testimonials-item">
+            <div class="content-card" data-testimonials-item>
+
+              <figure class="testimonials-avatar-box">
+                <!-- Image related to Docker -->
+                <img src="static/assets/images/docker-.png" alt="Docker Logo" style="width:78px; height:76px;  padding:10px;" data-testimonials-avatar>
+              </figure>
+
+              <h4 class="h4 testimonials-item-title" data-testimonials-title>Docker Specialist</h4>
+
+              <div class="testimonials-text" style="height:108px;" data-testimonials-text>
+                <p>
+                  Proficient in using Docker to deploy and manage applications seamlessly across various operating systems.
+                </p>
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+</section>
+        <section class="skill">
+
+            <!-- Skills Section -->
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+                
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">python</h5>
+                            <data value="80">80%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 80%;"></div>
+                        </div>
+                    </li>
+                
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">SQL</h5>
+                            <data value="70">70%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 70%;"></div>
+                        </div>
+                    </li>
+                
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Matlab</h5>
+                            <data value="50">50%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 50%;"></div>
+                        </div>
+                    </li>
+                
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">R</h5>
+                            <data value="46">46%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 46%;"></div>
+                        </div>
+                    </li>
+                
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Flask</h5>
+                            <data value="60">60%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 60%;"></div>
+                        </div>
+                    </li>
+                
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">HTML</h5>
+                            <data value="70">70%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 70%;"></div>
+                        </div>
+                    </li>
+                
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">CSS</h5>
+                            <data value="60">60%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 60%;"></div>
+                        </div>
+                    </li>
+                
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">C++</h5>
+                            <data value="40">40%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 40%;"></div>
+                        </div>
+                    </li>
+                
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">JAVA</h5>
+                            <data value="40">40%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 40%;"></div>
+                        </div>
+                    </li>
+                
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Git</h5>
+                            <data value="50">50%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 50%;"></div>
+                        </div>
+                    </li>
+                
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Web Design</h5>
+                            <data value="45">45%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 45%;"></div>
+                        </div>
+                    </li>
+                
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Branding</h5>
+                            <data value="40">40%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 40%;"></div>
+                        </div>
+                    </li>
+                
+            </ul>
+
+        </section>
+
+
+    </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+       <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects" >
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+           <ul class="project-list">
+        
+          <li class="project-item active" data-filter-item data-category="Application">
+            <a href="https://mostaql.com/portfolio/1853511-fake-news-detection-%D9%83%D8%B4%D9%81-%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D8%B2%D8%A7%D8%A6%D9%81%D8%A9">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="/media/project_images/Capture_d%C3%A9cran_FND1.png" alt="Fake News Detection" loading="lazy">
+              </figure>
+              <h3 class="project-title">Fake News Detection</h3>
+              <p class="project-category">Application</p>
+            </a>
+          </li>
+        
+          <li class="project-item active" data-filter-item data-category="Web development">
+            <a href="https://mostaql.com/portfolio/1853655-responsive-web-site-restaurant">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="/media/project_images/2.png" alt="Web Site Restaurant" loading="lazy">
+              </figure>
+              <h3 class="project-title">Web Site Restaurant</h3>
+              <p class="project-category">Web development</p>
+            </a>
+          </li>
+        
+          <li class="project-item active" data-filter-item data-category="Web development">
+            <a href="https://github.com/WissalManseri">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="/media/project_images/Capture_d%C3%A9cran_2023-12-07_220932.png" alt="Booken" loading="lazy">
+              </figure>
+              <h3 class="project-title">Booken</h3>
+              <p class="project-category">Web development</p>
+            </a>
+          </li>
+        
+          <li class="project-item active" data-filter-item data-category="Web development">
+            <a href="https://github.com/WissalManseri">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="/media/project_images/denteloprj.png" alt="Dental Service" loading="lazy">
+              </figure>
+              <h3 class="project-title">Dental Service</h3>
+              <p class="project-category">Web development</p>
+            </a>
+          </li>
+        
+          <li class="project-item active" data-filter-item data-category="Web development">
+            <a href="https://github.com/WissalManseri">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="/media/project_images/doccolab_u4EO5tN.png" alt="Nearst Doctor" loading="lazy">
+              </figure>
+              <h3 class="project-title">Nearst Doctor</h3>
+              <p class="project-category">Web development</p>
+            </a>
+          </li>
+        
+          <li class="project-item active" data-filter-item data-category="Web development">
+            <a href="https://github.com/WissalManseri">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="/media/project_images/Home_DR_8zq4IrN.png" alt="CityViewHomes" loading="lazy">
+              </figure>
+              <h3 class="project-title">CityViewHomes</h3>
+              <p class="project-category">Web development</p>
+            </a>
+          </li>
+        
+      </ul>
+
+        </section>
+
+<!-- Section pour les projets IA -->
+
+         <section class="timeline">
+
+            <!-- Experience Timeline -->
+            <div class="title-wrapper">
+                <div class="icon-box">
+                   <ion-icon name="code-outline"></ion-icon>
+                </div>
+                <h3 class="h3">Projets AI</h3>
+            </div>
+
+           <ol class="timeline-list">
+           <ol class="timeline-list">
+                
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title"  >Fake News Detection</h4>
+                       <!-- <span>  -  </span>
+                        <p class="timeline-text" ></p>!-->
+                        <p style="color:white;"> <a href="https://github.com/WissalManseri/FAKE-NEWS-DECTION/blob/main/FND.ipynb" target="_blank" style="color:#b1b1b1;font-weight:bold;font-size:19px;">Link</a></p>
+
+                        
+                            <p style="color:white;"> <a href="/media/project_pdfs/Fake_News_Detection.ipynb" style="color:#b1b1b1;font-weight:bold;font-size:19px;" download>Download PDF</a></p>
+                        
+
+                    </li>
+               
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title"  >house prise prediction</h4>
+                       <!-- <span>  -  </span>
+                        <p class="timeline-text" ></p>!-->
+                        <p style="color:white;"> <a href="https://github.com/WissalManseri/house_prise_prediction" target="_blank" style="color:#b1b1b1;font-weight:bold;font-size:19px;">Link</a></p>
+
+                        
+
+                    </li>
+               
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title"  >Real estate price prediction</h4>
+                       <!-- <span>  -  </span>
+                        <p class="timeline-text" ></p>!-->
+                        <p style="color:white;"> <a href="https://github.com/WissalManseri/Prediction-des-prix-de-l-immobilier-" target="_blank" style="color:#b1b1b1;font-weight:bold;font-size:19px;">Link</a></p>
+
+                        
+
+                    </li>
+               
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title"  >Car prise predection</h4>
+                       <!-- <span>  -  </span>
+                        <p class="timeline-text" ></p>!-->
+                        <p style="color:white;"> <a href="https://github.com/WissalManseri/car-prise-prediction" target="_blank" style="color:#b1b1b1;font-weight:bold;font-size:19px;">Link</a></p>
+
+                        
+                            <p style="color:white;"> <a href="/media/project_pdfs/Car_Price_Prediction_.ipynb" style="color:#b1b1b1;font-weight:bold;font-size:19px;" download>Download PDF</a></p>
+                        
+
+                    </li>
+               
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title"  >Prediction of energy consumption</h4>
+                       <!-- <span>  -  </span>
+                        <p class="timeline-text" ></p>!-->
+                        <p style="color:white;"> <a href="https://github.com/WissalManseri/Prediction_of_energy_consumption" target="_blank" style="color:#b1b1b1;font-weight:bold;font-size:19px;">Link</a></p>
+
+                        
+
+                    </li>
+               
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title"  >titanic prediction</h4>
+                       <!-- <span>  -  </span>
+                        <p class="timeline-text" ></p>!-->
+                        <p style="color:white;"> <a href="https://github.com/WissalManseri" target="_blank" style="color:#b1b1b1;font-weight:bold;font-size:19px;">Link</a></p>
+
+                        
+
+                    </li>
+               
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title"  >bank loan analysis</h4>
+                       <!-- <span>  -  </span>
+                        <p class="timeline-text" ></p>!-->
+                        <p style="color:white;"> <a href="https://colab.research.google.com/drive/1vII7kJihVQoQbqGe_vhzzzes2GCdToLo?usp=sharing" target="_blank" style="color:#b1b1b1;font-weight:bold;font-size:19px;">Link</a></p>
+
+                        
+
+                    </li>
+               
+           </ol>
+         </section>
+
+      </article>
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog" >
+
+        <header>
+          <h2 class="h2 article-title">Certificate</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+            
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="/media/blog_images/an.jpeg" alt="Perfectionner votre anglais des affaires" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!--<p class="blog-category"></p>!-->
+                      <span class="dot"></span>
+                      <time datetime="2022-12-30">Dec. 30, 2022</time>
+                    </div><!-- |date:'M d, Y' !-->
+                    <h3 class="h3 blog-item-title">Perfectionner votre anglais des affaires</h3>
+                  </div>
+                </a>
+              </li>
+            
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="/media/blog_images/dl.jpeg" alt="Advance Your Skills in Deep Learning and Neural Networks" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!--<p class="blog-category"></p>!-->
+                      <span class="dot"></span>
+                      <time datetime="2022-12-30">Dec. 30, 2022</time>
+                    </div><!-- |date:'M d, Y' !-->
+                    <h3 class="h3 blog-item-title">Advance Your Skills in Deep Learning and Neural Networks</h3>
+                  </div>
+                </a>
+              </li>
+            
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="/media/blog_images/aws.jpeg" alt="Prepare for the AWS Certified Cloud Practitioner (CLF-C01) Certification Exam" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!--<p class="blog-category"></p>!-->
+                      <span class="dot"></span>
+                      <time datetime="2022-12-29">Dec. 29, 2022</time>
+                    </div><!-- |date:'M d, Y' !-->
+                    <h3 class="h3 blog-item-title">Prepare for the AWS Certified Cloud Practitioner (CLF-C01) Certification Exam</h3>
+                  </div>
+                </a>
+              </li>
+            
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="/media/blog_images/dj.jpeg" alt="Become a Django Developer" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!--<p class="blog-category"></p>!-->
+                      <span class="dot"></span>
+                      <time datetime="2022-12-29">Dec. 29, 2022</time>
+                    </div><!-- |date:'M d, Y' !-->
+                    <h3 class="h3 blog-item-title">Become a Django Developer</h3>
+                  </div>
+                </a>
+              </li>
+            
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="/media/blog_images/aw.jpeg" alt="Devenir spécialiste de AWS" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!--<p class="blog-category"></p>!-->
+                      <span class="dot"></span>
+                      <time datetime="2022-12-28">Dec. 28, 2022</time>
+                    </div><!-- |date:'M d, Y' !-->
+                    <h3 class="h3 blog-item-title">Devenir spécialiste de AWS</h3>
+                  </div>
+                </a>
+              </li>
+            
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="/media/blog_images/dp.jpeg" alt="Devenir développeur / développeuse Python" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!--<p class="blog-category"></p>!-->
+                      <span class="dot"></span>
+                      <time datetime="2022-12-09">Dec. 9, 2022</time>
+                    </div><!-- |date:'M d, Y' !-->
+                    <h3 class="h3 blog-item-title">Devenir développeur / développeuse Python</h3>
+                  </div>
+                </a>
+              </li>
+            
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="/media/blog_images/pd.png" alt="Python pour la data science" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!--<p class="blog-category"></p>!-->
+                      <span class="dot"></span>
+                      <time datetime="2022-12-08">Dec. 8, 2022</time>
+                    </div><!-- |date:'M d, Y' !-->
+                    <h3 class="h3 blog-item-title">Python pour la data science</h3>
+                  </div>
+                </a>
+              </li>
+            
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="/media/blog_images/ds.jpeg" alt="Devenir data scientist" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!--<p class="blog-category"></p>!-->
+                      <span class="dot"></span>
+                      <time datetime="2022-12-08">Dec. 8, 2022</time>
+                    </div><!-- |date:'M d, Y' !-->
+                    <h3 class="h3 blog-item-title">Devenir data scientist</h3>
+                  </div>
+                </a>
+              </li>
+            
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="/media/blog_images/ma.png" alt="MATLAB pour les data scientists" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!--<p class="blog-category"></p>!-->
+                      <span class="dot"></span>
+                      <time datetime="2022-11-15">Nov. 15, 2022</time>
+                    </div><!-- |date:'M d, Y' !-->
+                    <h3 class="h3 blog-item-title">MATLAB pour les data scientists</h3>
+                  </div>
+                </a>
+              </li>
+            
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="/media/blog_images/r.png" alt="R pour les data scientists" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!--<p class="blog-category"></p>!-->
+                      <span class="dot"></span>
+                      <time datetime="2022-11-14">Nov. 14, 2022</time>
+                    </div><!-- |date:'M d, Y' !-->
+                    <h3 class="h3 blog-item-title">R pour les data scientists</h3>
+                  </div>
+                </a>
+              </li>
+            
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="/media/blog_images/bd.jpeg" alt="Devenir développeur / développeuse de bases de données" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!--<p class="blog-category"></p>!-->
+                      <span class="dot"></span>
+                      <time datetime="2022-11-13">Nov. 13, 2022</time>
+                    </div><!-- |date:'M d, Y' !-->
+                    <h3 class="h3 blog-item-title">Devenir développeur / développeuse de bases de données</h3>
+                  </div>
+                </a>
+              </li>
+            
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="/media/blog_images/jv.jpeg" alt="Devenir développeur / développeuse Java" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!--<p class="blog-category"></p>!-->
+                      <span class="dot"></span>
+                      <time datetime="2022-11-12">Nov. 12, 2022</time>
+                    </div><!-- |date:'M d, Y' !-->
+                    <h3 class="h3 blog-item-title">Devenir développeur / développeuse Java</h3>
+                  </div>
+                </a>
+              </li>
+            
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="/media/blog_images/l.jpeg" alt="Devenir administrateur / administratrice système Linux" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!--<p class="blog-category"></p>!-->
+                      <span class="dot"></span>
+                      <time datetime="2022-11-12">Nov. 12, 2022</time>
+                    </div><!-- |date:'M d, Y' !-->
+                    <h3 class="h3 blog-item-title">Devenir administrateur / administratrice système Linux</h3>
+                  </div>
+                </a>
+              </li>
+            
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="/media/blog_images/0.jpg" alt="HTML5 and CSS3" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!--<p class="blog-category"></p>!-->
+                      <span class="dot"></span>
+                      <time datetime="2022-06-09">June 9, 2022</time>
+                    </div><!-- |date:'M d, Y' !-->
+                    <h3 class="h3 blog-item-title">HTML5 and CSS3</h3>
+                  </div>
+                </a>
+              </li>
+            
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="/media/blog_images/P.png" alt="Python : Niveau avancé" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <!--<p class="blog-category"></p>!-->
+                      <span class="dot"></span>
+                      <time datetime="2022-04-12">April 12, 2022</time>
+                    </div><!-- |date:'M d, Y' !-->
+                    <h3 class="h3 blog-item-title">Python : Niveau avancé</h3>
+                  </div>
+                </a>
+              </li>
+            
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+
+            <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d177655.0895569461!2d0.0907!3d35.9347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ef2e90c5d1e69b%3A0x54c3e19b1ac2d0ca!2sMostaganem%2C%20Algeria!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+                <h3 class="h3 form-title">Contact Form</h3>
+                
+                <form action="/contact/" method="post" class="form" data-form>
+                  <input type="hidden" name="csrfmiddlewaretoken" value="8V5qnX7WacqzCA7T3OmhidfBH70sAdtD0gQ7jjz0kWY0jTWqdmRK36OcFKseStAt">
+                  <div class="input-wrapper">
+                    <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                    <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                  </div>
+                  <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+                  <button class="form-btn" type="submit" data-form-btn>
+                    <ion-icon name="paper-plane"></ion-icon>
+                    <span>Send Message</span>
+                  </button>
+                </form>
+        </section>
+
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="static/assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+ <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+
+</body>
+
+</html>
