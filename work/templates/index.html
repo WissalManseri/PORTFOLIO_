@@ -401,7 +401,7 @@
                     <li class="timeline-item">
                         <h4 class="h4 timeline-item-title">{{ education_item.school_name }}</h4>
                         <span>{{ education_item.start_year }} — {% if education_item.is_current %}Present{% else %}{{ education_item.end_year }}{% endif %}</span>
-                        <p class="timeline-text">{{ education_item.description }}</p>
+                        <p class="timeline-text">{{ education_item.description|linebreaksbr }}</p>
                     </li>
                 {% endfor %}
             </ol>
@@ -430,7 +430,7 @@
                                 {{ experience_item.end_month }} {{ experience_item.end_year }}
                             </span>
                         {% endif %}
-                        <p class="timeline-text">{{ experience_item.description }}</p>
+                        <p class="timeline-text">{{ experience_item.description|linebreaksbr }}</p>
                     </li>
                 {% endfor %}
             </ol>
